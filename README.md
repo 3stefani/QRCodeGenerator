@@ -12,19 +12,19 @@ The structure consists of a web application in which we insert a web link and it
 ##Installation and Setup
 Follow these steps to install and set up the project on your machine:
 
-**1.- Clone this repository
+#1.- Clone this repository
 **Download the source code using git clone or by downloading the ZIP file from GitHub:
 	git clone https://github.com/your_username/your_repository.git
 	cd your_repository
 
-**2.- Set up a virtual environment (optional but recommended)
+#2.- Set up a virtual environment (optional but recommended)
 **It's recommended to use a virtual environment to avoid dependency conflicts. You can set it up with the following commands:
 
 	python -m venv venv
 	source venv/bin/activate      # On Linux/Mac
 	venv\Scripts\activate         # On Windows
 
-**3.- Install the required dependencies
+#3.- Install the required dependencies
 **To run the project, you'll need to install the following Python libraries:
 
 - streamlit: For building the web interface.
@@ -50,15 +50,15 @@ Alternatively, you can install each library individually:
 
 Any of these methods will ensure the necessary libraries are installed.
 
-**4.- Create the required folders
+#4.- Create the required folders
 **Ensure that the necessary folders exist in your project directory:
 
 	mkdir -p qr_codes images
 
-**5.- Add the icon (qricon.png)
+#5.- Add the icon (qricon.png)
 **Place an image file named qricon.png in the images folder. This will be used as the icon in the application. If you don’t have an image, you can either remove or modify this functionality in the code.
 
-**6.-Run the application
+#6.-Run the application
 **Start the Streamlit server to view the application:
 
 	streamlit run your_script_name.py
